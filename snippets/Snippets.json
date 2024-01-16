@@ -1,0 +1,33 @@
+{
+    "Object": {
+        "prefix": "Object",
+        "body": [
+            "Object ${1:TemplateName}",
+            "\t$0",
+            "\t",
+            "\tRemoveModule ModuleTag_DefaultW3DDefaultDraw",
+            "\tRemoveModule ModuleTag_DefaultDestroyDie",
+            "\tRemoveModule ModuleTag_DefaultInactiveBody",
+            "End"
+        ],
+        "description": "Tempalte for new Object"
+    },
+    "AddModule": {
+        "prefix": "AddModule",
+        "body": [
+            "AddModule",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates AddModule block"
+    },
+    "Draw": {
+        "prefix": "Draw",
+        "body": [
+            "Draw = ${1|W3DModelDraw,W3DTruckDraw,W3DTankDraw|} ModuleTag_Draw${2|01,02,03,04,05,06|}",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates Draw block with moduletag"
+    }
+}
