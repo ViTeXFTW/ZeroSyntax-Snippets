@@ -1,65 +1,22 @@
-# ZS-Snippets README
 
-This is the README for your extension "ZS-Snippets". After writing up a brief description, we recommend including the following sections.
+<div align="center">
+    <h1>ZeroSyntax-Snippets</h1>
+    <img src="https://github.com/ViTeXFTW/ZeroSyntax/blob/main/ZeroSyntaxLogo128.png?raw=true">
+</div>
 
-## Features
+## Introduction
+**ZeroHour-Snippets** adds simple snippets for Command & Conquer Generals Zero Hour map.ini. 
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Contributing
+For contributing to this project you will need to fork the repository to get your own copy. In you own copy you can change and manipulate the program. When you are satisfied with your solution you create a **Pull Request** and an administator will look at it.
+Should there be any issues with the submitted code a comment will be left on the **Pull Request** and will first be accepted when all issues have been fixed.
 
-For example if there is an image subfolder under your extension project workspace:
+## License
+This projct is under the MIT [LICENSE](LICENSE)
 
-\!\[feature X\]\(images/feature-x.png\)
+## Suggestions
+As this is my first open-source project, if you have any ideas or suggestions please write to me on eithre Discord or mail. (Discord might be better)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Questions
+Discord: ViTeXFTW#6644  
+Mail: vitexftw@gmail.com
