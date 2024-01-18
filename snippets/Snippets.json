@@ -21,13 +21,86 @@
         ],
         "description": "Creates AddModule block"
     },
+    "RemoveModule": {
+        "prefix": "RemoveModule",
+        "body": [
+            "RemoveModule ${1|ModuleTag_01,ModuleTag_02,ModuleTag_03,ModuleTag_04,ModuleTag_05|}"
+        ],
+        "description": "Creates RemoveModule statement"
+    },
     "Draw": {
         "prefix": "Draw",
         "body": [
-            "Draw = ${1|W3DModelDraw,W3DTruckDraw,W3DTankDraw|} ModuleTag_Draw${2|01,02,03,04,05,06|}",
+            "Draw = ${1|W3DModelDraw,W3DTruckDraw,W3DTankDraw,W3DOverlordTankDraw,W3DTankTruckDraw,W3DOverlordAircraftDraw,W3DOverlordTruckDraw,W3DLaserDraw,W3DDefaultDraw,W3DDebrisDraw,W3DDependencyModelDraw,W3DPoliceCarDraw,W3DTreeDraw,W3DPropDraw,W3DProjectileStreamDraw,W3DRopeDraw,W3DScienceModelDraw,W3DSupplyDraw,W3DTracerDraw|} ModuleTag_Draw${2|01,02,03,04,05,06,07,08,09,10|}",
+            "\tOkToChangeModelColor = Yes",
             "\t$0",
             "End"
         ],
         "description": "Creates Draw block with moduletag"
+    },
+    "DefaultConditionState": {
+        "prefix": "DefaultConditionState",
+        "body": [
+            "DefaultConditionState",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates DefaultConditionState block"
+    },
+    "ConditionState": {
+        "prefix": "ConditionState",
+        "body": [
+            "ConditionState = ${1|NONE,DAMAGED,REALLYDAMAGED,RUBBLE,SNOW,NIGHT|}",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates ConditionState block"
+    },
+    "Body": {
+        "prefix": "Body",
+        "body": [
+            "Body = ${1|ActiveBody,StructureBody,HighlanderBody,HiveStructureBody,ImmortalBody,InactiveBody,UndeadBody|} ModuleTag_Body${2|01,02,03,04,05,06,07,08,09,10|}",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates Body block"
+    },
+    "Behavior": {
+        "prefix": "Behavior",
+        "body": [
+            "Behavior = ${1|AIUpdateInterface,PhysicsBehavior|} ModuleTag_Behavior${2|01,02,03,04,05,06,07,08,09,10|}",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates Behavior block"
+    },
+    "WeaponSet": {
+        "prefix": "WeaponSet",
+        "body": [
+            "WeaponSet",
+            "\tConditions = ${1|NONE,PLAYER_UPGRADE,USER_1,USER_2|}",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates WeaponSet block"
+    },
+    "ArmorSet": {
+        "prefix": "ArmorSet",
+        "body": [
+            "ArmorSet",
+            "\tConditions = ${1|NONE,PLAYER_UPGRADE,USER_1,USER_2|}",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates ArmorSet block"
+    },
+    "UnitSpecificSounds": {
+        "prefix": "UnitSpecificSounds",
+        "body": [
+            "UnitSpecificSounds",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates UnitSpecificSounds block"
     }
 }
