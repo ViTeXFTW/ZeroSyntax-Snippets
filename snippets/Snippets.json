@@ -93,5 +93,14 @@
             "End"
         ],
         "description": "Creates ArmorSet block"
+    },
+    "UnitSpecificSounds": {
+        "prefix": "UnitSpecificSounds",
+        "body": [
+            "UnitSpecificSounds",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates UnitSpecificSounds block"
     }
 }
