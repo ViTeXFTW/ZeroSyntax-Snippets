@@ -1,4 +1,17 @@
 {
+    "MappedImage":{
+        "prefix": "MappedImage",
+        "body": [
+            "MappedImage ${1:TemplateName}",
+            "\tTexture = ${2:TextureName}",
+            "\tTextureWidth = ${3:1024}",
+            "\tTextureHeight = ${2:1024}",
+            "\tCoords = Left${5:0} Top${6:0} Right${7:1024} Bottom${8:1024}",
+            "\tStatus = NONE",
+            "End"
+        ],
+        "description": "Template for new MappedImage"
+    },
     "Object": {
         "prefix": "Object",
         "body": [
@@ -102,5 +115,77 @@
             "End"
         ],
         "description": "Creates UnitSpecificSounds block"
+    },
+    "OCL": {
+        "prefix": "ObjectCreationList",
+        "body": [
+            "ObjectCreationList ${1:TemplateName}",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates ObjectCreationList block"
+    },
+    "CreateObject": {
+        "prefix": "CreateObject",
+        "body": [
+            "CreateObject",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates CreateObject block"
+    },
+    "CreateDebris": {
+        "prefix": "CreateDebris",
+        "body": [
+            "CreateDebris",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates CreateDebris block"
+    },
+    "ApplyRandomForce": {
+        "prefix": "ApplyRandomForce",
+        "body": [
+            "ApplyRandomForce",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates ApplyRandomForce block"
+    },
+    "DeliverPayload": {
+        "prefix": "DeliverPayload",
+        "body": [
+            "DeliverPayload",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates DeliverPayload block"
+    },
+    "DeliveryDecal": {
+        "prefix": "DeliveryDecal",
+        "body": [
+            "DeliveryDecal",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates DeliveryDecal block"
+    },
+    "FireWeapon": {
+        "prefix": "FireWeapon",
+        "body": [
+            "FireWeapon",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates FireWeapon block"
+    },
+    "Attack": {
+        "prefix": "Attack",
+        "body": [
+            "Attack",
+            "\t$0",
+            "End"
+        ],
+        "description": "Creates Attack block"
     }
 }
