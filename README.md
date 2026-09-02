@@ -1,3 +1,4 @@
+# Depricated This extension is depricated in favour of [ZeroSyntaxV2](https://github.com/ViTeXFTW/ZeroSyntaxV2)
 
 <div align="center">
     <h1>ZeroSyntax-Snippets</h1>
